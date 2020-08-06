@@ -1,0 +1,26 @@
+:root{
+    /*Colores*/
+    --pink-cake: #ffb6c1;
+}
+
+.background-main{
+    background-image: url(../imagenes/background.jpg);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html, body{
+    font-family: 'Courgette';
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+}
+
+.bg-footer{
+    background-color: var(--pink-cake);
+}
