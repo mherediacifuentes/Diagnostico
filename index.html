@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/ajax.js"></script>
     <title>Document</title>
 </head>
@@ -46,24 +48,36 @@
     <div class="d-flex background-main">
         <div class="col-2">
             <ul class="list-unstyled p-2 align-items-center">
-                <li class="">
-                    <h4 class="text-dark font-weight-bold text-center">MENU</h4>
-                </li>
-                <div class="p-2 text-center">
-                    <a href="#" class="text-decoration-none" id="fragancias">
-                        <img src="imagenes/boton1-200x200.png" alt="">
-                    </a>
+                <h4 class="text-dark font-weight-bold text-center">MENU</h4>
+                <p class="text-dark font-weight-bold text-center">
+                    <button class="btn-lg btn-warning col-6" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Productos
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="p-2 text-center">
+                        <a href="#" class="text-decoration-none" id="fragancias">
+                            <img src="imagenes/boton1-200x200.png" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2 text-center">
+                        <a href="#" class="text-decoration-none" id="maquillaje">
+                            <img src="imagenes/boton2-200x200.png" alt="">
+                        </a>
+                    </div>
+                    <div class="p-2 text-center">
+                        <a href="#" class="text-decoration-none" id="cuidados">
+                            <img src="imagenes/boton3-200x200.png" alt="">
+                        </a>
+                    </div>
                 </div>
-                <li class="p-2 text-center">
-                    <a href="#" class="text-decoration-none" id="maquillaje">
-                        <img src="imagenes/boton2-200x200.png" alt="">
+                <p class="text-dark font-weight-bold text-center">
+                    <a href="#" id="kits">
+                        <button class="btn-lg btn-warning col-6">
+                            Kits
+                        </button>
                     </a>
-                </li>
-                <li class="p-2 text-center">
-                    <a href="#" class="text-decoration-none" id="cuidados">
-                        <img src="imagenes/boton3-200x200.png" alt="">
-                    </a>
-                </li>
+                </p>
             </ul>
         </div>
         <div id="main">

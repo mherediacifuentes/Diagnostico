@@ -12,4 +12,7 @@ $(document).ready(function() {
     $("#cuidados").click(function(){
         $("#main").load("cuidados.html");
     });
+    $("#kits").click(function(){
+        $("#main").load("kits.html");
+    });
 });
